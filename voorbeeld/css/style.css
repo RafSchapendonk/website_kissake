@@ -1,0 +1,25 @@
+body {
+	background: black;
+	margin: 0;
+	padding: 0;
+}
+
+#mobile-frame {
+	width: 480px;
+	min-height: calc(100vh - 80px);
+	background: white;
+	margin: 40px auto;
+	position: relative;
+	overflow: hidden;
+}
+
+header {
+	background: blue;
+	color: white;
+	font-size: 32px;
+	height: 100px;
+	padding: 30px;
+	box-sizing: border-box;
+	position: relative;
+}
+

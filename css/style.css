@@ -1,0 +1,39 @@
+body {
+	background: black;
+	margin: 0;
+	padding: 0;
+}
+
+#mobile-frame {
+	width: 480px;
+	min-height: calc(100vh - 80px);
+	background: white;
+	background-image: linear-gradient(#2e279d,#dff6f0 );
+	margin: 40px auto;
+	position: relative;
+	overflow: hidden;
+}
+
+header {
+	color: white;
+	font-size: 32px;
+	height: 100px;
+	padding: 30px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+#presents {
+	/* UGLY */
+	height: 400px;
+	background: green;
+}
+
+footer {
+	/* UGLY */
+	text-align: center;
+	text-emphasis-color: white;
+	color: green;
+	height: 200px;
+}
+
