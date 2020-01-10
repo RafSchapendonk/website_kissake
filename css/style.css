@@ -1,5 +1,5 @@
 body {
-	background: black;
+	background-image: linear-gradient(#2e279d,#dff6f0 );
 	margin: 0;
 	padding: 0;
 }
@@ -25,14 +25,25 @@ header {
 
 #presents {
 	/* UGLY */
-	height: 400px;
-	background: green;
+	/* TO-DO: pillow place holder vervangen */
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+
+#presents .naamkussen {
+	font-family: 'Sacramento', cursive;
+	font-size: 100px;
+}
+
+#presents .uitlegkussen {
+	font-family: 'Roboto', sans-serif;
+	/* justify-content: space-around; */
 }
 
 footer {
 	/* UGLY */
 	text-align: center;
-	text-emphasis-color: white;
 	color: green;
 	height: 200px;
 }

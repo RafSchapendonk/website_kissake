@@ -1,25 +1,87 @@
 body {
-	background: black;
+	background: #efefef;
 	margin: 0;
 	padding: 0;
 }
 
 #mobile-frame {
-	width: 480px;
-	min-height: calc(100vh - 80px);
+	width: 1140px;
+	min-height: 100vh;
 	background: white;
-	margin: 40px auto;
+	background-image: linear-gradient(#fff, #333);
+	margin: 0 auto;
 	position: relative;
 	overflow: hidden;
 }
 
 header {
-	background: blue;
-	color: white;
+	background: transparent;
+	border-bottom: solid 1px blue;
+	color: #000;
 	font-size: 32px;
 	height: 100px;
-	padding: 30px;
+	padding: 0 30px;
 	box-sizing: border-box;
 	position: relative;
 }
 
+.logo img {
+	height: 98px;
+}
+
+nav {
+	position: absolute;
+	right: 20px;
+	top: 0px;
+}
+
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+
+
+#contact {
+	/* UGLY */
+	min-height: 400px;
+	background: green;
+	opacity: 0.2;
+}
+
+footer {
+	background: transparent;
+	border-top: solid 1px blue;
+	color: #fff;
+	font-size: 32px;
+	height: 200px;
+	padding: 30px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: DodgerBlue;
+}
+
+.flex-container > div {
+	background-color: #f1f1f1;
+	width: 510px;
+	margin: 30px;
+	text-align: center;
+	line-height: 175px;
+	font-size: 90px;
+}
+
+
+#info .flex-container > div {
+	width: 168px;	
+}
