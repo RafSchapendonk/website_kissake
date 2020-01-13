@@ -49,8 +49,9 @@ header {
 
 footer {
 	/* UGLY */
+	font-family: 'Roboto', sans-serif;
 	text-align: center;
-	color: green;
+	color: white;
 	height: 200px;
 }
 
