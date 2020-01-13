@@ -60,12 +60,27 @@ header {
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	font-size: 25px;
+	margin-top: 10px;
 }
 
 #productspecs .titel-specs {
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
+	font-size: 40px;
+}
+
+#productspecs .inhoud-specs {
+	margin-left: 7px;
+	margin-right: 7px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
 	font-size: 25px;
+}
+
+#products {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 footer {
