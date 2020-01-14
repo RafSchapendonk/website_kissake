@@ -104,25 +104,52 @@ header {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	font-family: 'Varela Round', sans-serif;
-	font-size: 75px;
-	color: #fff;	
-}
-
-#root {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
 	align-items: center;
 	font-family: 'Varela Round', sans-serif;
-	font-size: 30px;
-	color: white;
-	margin: 50px;
+	font-size: 40px;
+	text-align: center;
+	color: #fff;	
+	margin: 25px 7px;
+}
+#faq div {
+	border: 3px solid black;
 }
 
-#root h1 {
+#faq .vraag {
 	font-size: 10px;
 }
+
+#faq .antwoord {
+	font-size: 14px;
+}
+
+	#root {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		font-family: 'Varela Round', sans-serif;
+		font-size: 14px;
+		color: white;
+		margin: 50px;
+	}
+
+	#root .slaaplog-entry {
+		font-family: 'Varela Round', sans-serif;
+		font-size: 20px;
+		color: white;
+	}
+
+	#root .row {
+		border: 3px solid black;
+		margin-bottom: 15px;
+		padding: 20px;
+	}
+
+	#root .tijd {
+		font-size: 10px;
+		color: gray;
+	}
 
 footer {
 	/* UGLY */

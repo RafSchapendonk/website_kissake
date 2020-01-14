@@ -27,6 +27,7 @@ fetch(url, options).then((response) => {
         h1.setAttribute("class", "slaaplog-entry")
         h1.textContent = "Slaaplog Entry";
         const pTijd = document.createElement("p");
+        pTijd.setAttribute("class", "tijd");
         pTijd.textContent = sleeplog.createdAt;
         const p1 = document.createElement("p");
         p1.textContent = sleeplog.data.eersteData;
