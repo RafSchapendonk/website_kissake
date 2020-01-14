@@ -109,6 +109,11 @@ header {
 	color: #fff;	
 }
 
+#root .row {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 75px;
+}
+
 footer {
 	/* UGLY */
 	font-family: 'Varela Round', sans-serif;
