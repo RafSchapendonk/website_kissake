@@ -109,18 +109,15 @@ header {
 	font-size: 40px;
 	text-align: center;
 	color: #fff;	
-	margin: 25px 7px;
-}
-#faq div {
-	border: 3px solid black;
+	margin: 25px 10px;
 }
 
 #faq .vraag {
-	font-size: 10px;
+	font-size: 14px;
 }
 
 #faq .antwoord {
-	font-size: 14px;
+	font-size: 20px;
 }
 
 	#root {
@@ -141,12 +138,14 @@ header {
 	}
 
 	#root .row {
+		/* UGLY */
 		border: 3px solid black;
 		margin-bottom: 15px;
 		padding: 20px;
 	}
 
 	#root .tijd {
+		/* UGLY */
 		font-size: 10px;
 		color: gray;
 	}
