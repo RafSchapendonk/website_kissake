@@ -66,7 +66,7 @@ header {
 #productspecs .titel-specs {
 	font-family: 'Varela Round', sans-serif;
 	text-align: center;
-	font-size: 40px;
+	font-size: 4px;
 }
 
 #productspecs .inhoud-specs {
@@ -106,9 +106,7 @@ header {
 	justify-content: center;
 	font-family: 'Varela Round', sans-serif;
 	font-size: 75px;
-	color: #fff;
-	margin-left: 7px;
-	margin-right: 7px;	
+	color: #fff;	
 }
 
 footer {
