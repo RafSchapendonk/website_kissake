@@ -23,14 +23,18 @@ fetch(url, options).then((response) => {
     data.forEach((sleeplog) => {
         const row = document.createElement("div");
         row.setAttribute("class", "row");
-        const h1 = document.createElement("h1");
-        h1.textContent = sleeplog.createdAt;
+        const h1 = document.createElement("div");
+        h1.setAttribute("class", "slaaplog-entry")
+        h1.textContent = "Slaaplog Entry";
+        const pTijd = document.createElement("p");
+        pTijd.textContent = sleeplog.createdAt;
         const p1 = document.createElement("p");
         p1.textContent = sleeplog.data.eersteData;
         const p2 = document.createElement("p");
         p2.textContent = sleeplog.data.tweedeData;
         container.appendChild(row);
         row.appendChild(h1);
+        row.appendChild(pTijd);
         row.appendChild(p1);
         row.appendChild(p2);
         console.log(sleeplog.data.eersteData + " - " + sleeplog.data.tweedeData);
