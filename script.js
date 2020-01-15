@@ -20,29 +20,30 @@ fetch(url, options).then((response) => {
 }).then((data) => {
     console.log("De data: ");
     console.log(data);
-    data.forEach((sleeplog, index) => {
+    data.forEach((sleeplog) => {
+        console.log(sleeplog.data);
         const row = document.createElement("div");
         row.setAttribute("class", "row");
         
         const h1 = document.createElement("div");
         h1.setAttribute("class", "slaaplog-entry")
-        h1.textContent = "Slaaplog Entry: " + (index+1);
+        h1.textContent = "Slaaplog Entry";
                 
         const pTijd = document.createElement("p");
         pTijd.setAttribute("class", "tijd");
         pTijd.textContent = sleeplog.createdAt;
         
         const p1 = document.createElement("p");
-        p1.textContent = "Temperatuur: " + sleeplog.data.Temperatuur;
+        p1.textContent = "Temperatuur: " + sleeplog.data.temperatuur;
         
         const p2 = document.createElement("p");
-        p2.textContent = "Vochtigheid: " + sleeplog.data.Vochtigheid;
+        p2.textContent = "Vochtigheid: " + sleeplog.data.vochtigheid;
 
         const p3 = document.createElement("p");
-        p2.textContent = "Lichtniveau: " + sleeplog.data.Lichtniveau;
+        p3.textContent = "Lichtniveau: " + sleeplog.data.lichtniveau;
 
         const p4 = document.createElement("p");
-        p2.textContent = "Geluidsniveau: " + sleeplog.data.Geluidsniveau;
+        p4.textContent = "Geluidsniveau: " + sleeplog.data.geluidsniveau;
 
         container.appendChild(row);
         
