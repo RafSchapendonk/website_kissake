@@ -145,35 +145,58 @@ header {
 	font-size: 20px;
 }
 
-	#root {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: center;
-		font-family: 'Varela Round', sans-serif;
-		font-size: 14px;
-		color: white;
-		margin: 50px;
-	}
+#about-us {
+	color: white;
+	text-align: center;
+	font-family: 'Varela Round', sans-serif;
+	padding: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
 
-	#root .slaaplog-entry {
-		font-family: 'Varela Round', sans-serif;
-		font-size: 20px;
-		color: white;
-	}
+#about-us .titel-about-us { 
+	font-size: 40px;
+}
 
-	#root .row {
-		/* UGLY */
-		border: 3px solid black;
-		margin-bottom: 15px;
-		padding: 40px;
-	}
+#about-us .about-us {
+	font-size: 14px;
+}
 
-	#root .tijd {
-		/* UGLY */
-		font-size: 10px;
-		color: gray;
-	}
+/* DASHBOARD */
+/* DASHBOARD */
+/* DASHBOARD */
+
+#root {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 14px;
+	color: white;
+	margin: 50px;
+}
+
+#root .slaaplog-entry {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 20px;
+	color: white;
+}
+
+#root .row {
+	/* UGLY */
+	border: 3px solid black;
+	margin-bottom: 15px;
+	padding: 40px;
+}
+
+#root .tijd {
+	/* UGLY */
+	font-size: 10px;
+	color: gray;
+}
 
 footer {
 	/* UGLY */
