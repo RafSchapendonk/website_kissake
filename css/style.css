@@ -161,7 +161,7 @@ header {
 }
 
 #about-us .about-us {
-	font-size: 14px;
+	font-size: 20px;
 }
 
 /* DASHBOARD */
@@ -174,28 +174,31 @@ header {
 	justify-content: center;
 	align-items: center;
 	font-family: 'Varela Round', sans-serif;
-	font-size: 14px;
+	font-size: 20px;
 	color: white;
 	margin: 50px;
 }
 
 #root .slaaplog-entry {
 	font-family: 'Varela Round', sans-serif;
-	font-size: 20px;
+	font-size: 30px;
 	color: white;
 }
 
 #root .row {
 	/* UGLY */
-	border: 3px solid black;
+	background-color: #46b3e6;
+	border: none;
+	padding: 15px 32px;
+	border-radius: 15px;
 	margin-bottom: 15px;
 	padding: 40px;
 }
 
 #root .tijd {
 	/* UGLY */
-	font-size: 10px;
-	color: gray;
+	font-size: 14px;
+	color: lightgray;
 }
 
 footer {
