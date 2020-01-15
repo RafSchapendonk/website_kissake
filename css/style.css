@@ -1,5 +1,7 @@
+/* padding: 25px 50px 75px 100px; */
+
 body {
-	background-image: linear-gradient(#2e279d,#dff6f0 );
+	background-image: linear-gradient(#dff6f0,#2e279d);
 	margin: 0;
 	padding: 0;
 }
