@@ -38,7 +38,7 @@
 						<!-- TO-DO: namen veranderen -->
 						<a href="#"><li>Login</li></a>
 						<a href="dashboard.html"><li>My Homepage</li></a>
-						<a href="#"><li>Products</li></a>
+						<a href="#products"><li>Products</li></a>
 						<a href="#"><li>FAQ</li></a>
 						<a href="#"><li>About Us</li></a>
 						<a href="#"><li>Contact</li></a>
@@ -88,7 +88,7 @@
 			</div>
 
 			<div class="tekst-slaapritme">
-				<h1 class="titel-specs">Sleepry rhythm</h1>
+				<h1 class="titel-specs">Sleep rhythm</h1>
 				<p class="inhoud-specs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, orci efficitur mattis imperdiet, nisl est commodo magna, id pretium eros odio nec est. Sed suscipit nisi in volutpat viverra.</p>
 			</div>
 
@@ -132,28 +132,30 @@
 
 			<section id="faq">
 
+				<!-- UGLY -->
+				<!-- TO-DO: lorem ipsum verwijderen -->
 				<div>
 					<h1 class="titelfaq">FAQ</h1>
 				</div>
+
+				<button class="accordion">How accurate is it?</button>
+				<div class="panel">
+				  <p>The sleep tracking sensors in our pillows ar the most accurate on the market.</p>
+				</div>
 				
-				<div>
-					<p class="vraag">How accurate is it?</p>
-					<p class="antwoord">The sleep tracking sensors in our pillows ar the most accurate on the market.</p>				
+				<button class="accordion">How can i wash it?</button>
+				<div class="panel">
+				  <p>You can spot wash memory foam with baking soda or use a light soap and water application. All of the components of the Kipillow are waterproof.</p>
 				</div>
-					
-				<div>
-					<p class="vraag">How can i wash it?</p>
-					<p class="antwoord">You can spot wash memory foam with baking soda or use a light soap and water application. All of the components of the Kipillow are waterproof.</p>				
-				</div>
-
-				<div>
-					<p class="vraag">Can i replace parts if i wish?</p>
-					<p class="antwoord">Unfortunately, no. Maintenance of Kipillow would require technical expertise that is just not common enough for everyone to enjoy. Thus we will not be offering any self-upgrades or additional parts.</p>				
+				
+				<button class="accordion">Can i replace parts if i wish?</button>
+				<div class="panel">
+				  <p>Unfortunately, no. Maintenance of Kipillow would require technical expertise that is just not common enough for everyone to enjoy. Thus we will not be offering any self-upgrades or additional parts.</p>
 				</div>
 
-				<div>
-					<p class="vraag">How comfortable is the pillow?</p>
-					<p class="antwoord">Your Kipillow is ultra comfy. We designed it with only the highest quality premium memory foam. It is rated Medium to Medium-firm.</p>				
+				<button class="accordion">How comfortable is the pillow?</button>
+				<div class="panel">
+				  <p>Your Kipillow is ultra comfy. We designed it with only the highest quality premium memory foam. It is rated Medium to Medium-firm.</p>
 				</div>
 				
 			</section>
@@ -173,6 +175,44 @@
 		</section>
 
 		<section id="contact">
+			<h1 class="titel-contact">Contact</h1>
+
+			<div class="contact-info">
+
+				<div class="contact-icoon">
+					<img src="media/telefoon-icoon.png" />
+				</div>
+				
+				<div class="telefoonnummer">
+					<p class="contact-info">(778) 224-8953</p>
+				</div>
+
+				<div class="contact-icoon">
+					<img src="media/email-icoon.png" />
+					
+				</div>
+
+				<div class="e-mail-adres">
+					<p class="contact-info">lorem@ipsum.com</p>
+				</div>
+
+				<div class="contact-icoon">
+					<img src="media/facebook-icoon.png" />
+				</div>
+
+				<div class="facebook-pagina">
+					<p class="contact-info">facebook.com/Kissake</p>
+				</div>
+
+				<div class="contact-icoon">
+					<img src="media/locatie-icoon.png" />
+					
+				</div>
+
+				<div class="adres-locatie">
+					<p class="contact-info">4290 Lawman Avenue</p>
+				</div>
+			</div>
 			
 		</section>
 
@@ -181,6 +221,8 @@
 		</footer>
         
     </div>
-    
+	
+	<script src="js/accordion.js"></script>
+
 </body>
 </html>
