@@ -1,7 +1,5 @@
 body {
-	/* UGLY */
-	/* background-image: linear-gradient(#dff6f0,#2e279d); */
-	background-color: purple;
+	background-image: linear-gradient(#dff6f0,#2e279d);
 	margin: 0;
 	padding: 0;
 }
@@ -26,8 +24,6 @@ header {
 }
 
 #presents {
-	/* UGLY */
-	/* TO-DO: pillow place holder vervangen */
 	padding: 40px;
 	display: flex;
 	flex-wrap:wrap;
@@ -63,7 +59,6 @@ header {
 	color: #fff;
 	font-family: 'Varela Round', sans-serif;
 	font-size: 25px;
-	/* margin-top: 15px; */
 }
 
 #productspecs .icoon {
@@ -72,7 +67,7 @@ header {
 
 #productspecs .titel-specs {
 	font-family: 'Varela Round', sans-serif;
-	font-size: 30px;
+	font-size: 50px;
 	margin-bottom: 5px;
 	margin:20px 7px 5px;
 }
@@ -109,7 +104,6 @@ header {
 }
 
 #products .buy-button {
-	/* UGLY */
 	background-color: #4d80e4;
 	font-family: 'Varela Round', sans-serif;
 	border: none;
@@ -122,7 +116,6 @@ header {
 	cursor: pointer;	
 }
 
-/* Style the buttons that are used to open and close the accordion panel */
 .accordion {
 	background-color: #4d80e4;
 	border-radius: 15px;
@@ -137,12 +130,10 @@ header {
 	margin-top: 10px;
 }
   
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
 	background-color: #46b3e6;
 }
   
-  /* Style the accordion panel. Note: hidden by default */
 .panel {
 	border-radius: 15px;
 	padding: 0 18px;
@@ -213,8 +204,6 @@ header {
  }
 
 #contact .contact-info .contact-icoon {
-	/* margin-left: 30px;
-	margin-bottom: -10px; */
 	margin: -12px 20px 20px 80px;
 	padding: -5px 0px 0px 30px;
 }
@@ -228,7 +217,11 @@ header {
 
 
 #gebruiker {
-	margin: 30px;
+	margin: 50px 90px;
+	background-color: #46b3e6;
+	border: none;
+	border-radius: 15px;
+	padding: 40px;
 }
 
 #gebruiker .inhoud-gebruiker{
@@ -236,7 +229,7 @@ header {
 	color: white;
 	font-family: 'Varela Round', sans-serif;
 	font-size: 30px;
-	margin: 10px;
+	margin: 5px;
 }
 
 #root {
@@ -257,17 +250,14 @@ header {
 }
 
 #root .row {
-	/* UGLY */
 	background-color: #46b3e6;
 	border: none;
-	padding: 15px 32px;
 	border-radius: 15px;
 	margin-bottom: 15px;
 	padding: 40px;
 }
 
 #root .tijd {
-	/* UGLY */
 	font-size: 14px;
 	color: lightgray;
 }
@@ -279,44 +269,51 @@ header {
 /* PRODUCTPAGINA */
 
 
-
-#productpagina {
+ 
+ #productpagina {
 	margin: 30px;
 	display: flex;
 	flex-wrap: wrap;
-}
-
-#productpagina .naam-product {
-	text-align: center;
-	color: white;
-	font-family: 'Sacramento', cursive;
-	font-size: 50px;
-	margin: 1px;
-}
-
-#productpagina .omschrijving-product {
+	justify-content: center;
+	align-items: center;
 	color: white;
 	font-family: 'Varela Round', sans-serif;
 	font-size: 18px;
+} 
+
+#productpagina .naam-product {
+	text-align: center;
+	font-family: 'Sacramento', cursive;
+	font-size: 50px;
+}
+
+#productpagina .omschrijving-product {
+	margin-top: 62px;
+}
+
+#productpagina .prijs {
+	margin: 0px 5px;
+	font-size: 30px;
+}
+
+#productpagina .add-to-cart-button .box {
+	width: 50%;
+	height: 100px;
 }
 
 #productpagina .add-to-cart-button {
 	background-color: #4d80e4;
 	font-family: 'Varela Round', sans-serif;
-	font-size: 14px;
 	border: none;
 	padding: 15px 32px;
 	border-radius: 15px;
-	justify-content: space-evenly;
 	color: white;
-	display: flex;
 	font-size: 30px;
 	cursor: pointer;
-
 }
 
 footer {
-	/* UGLY */
+	margin: 20px;
 	font-family: 'Varela Round', sans-serif;
 	text-align: center;
 	color: white;
