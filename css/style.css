@@ -4,13 +4,16 @@ body {
 	padding: 0;
 }
 
-#mobile-frame {
+#--mobile-frame {
 	width: 480px;
 	min-height: calc(100vh - 80px);
 	background: white;
 	background-image: linear-gradient(#dff6f0,#2e279d );
 	margin: 40px auto;
 	position: relative;
+}
+
+#mobile-frame {
 	overflow: hidden;
 }
 
