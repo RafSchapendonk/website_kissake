@@ -52,9 +52,9 @@
 }
 #menu_content span {
   display: block;
-  width: 33px;
-  height: 4px;
-  margin-bottom: 5px;
+  width: 50px;
+  height: 6px;
+  margin-bottom: 10px;
   position: relative;
   background: #fff;
   border-radius: 3px;
@@ -70,7 +70,7 @@
 }
 #menu_content input:checked ~ span {
   opacity: 1;
-  transform: rotate(45deg) translate(-2px, -1px);
+  transform: rotate(45deg) translate(-2px, 0px);
   background: #fff;
 }
 #menu_content input:checked ~ span:nth-last-child(3) {
@@ -78,7 +78,7 @@
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 #menu_content input:checked ~ span:nth-last-child(2) {
-  transform: rotate(-45deg) translate(0, -1px);
+  transform: rotate(-45deg) translate(0, -4px);
 }
 #menu_content input:checked ~ ul {
   transform: scale(1, 1);
