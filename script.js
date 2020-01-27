@@ -1,4 +1,4 @@
-const url = "https://1d766601.ngrok.io/api/sleeplogs";
+const url = "https://0b5d1324.ngrok.io/api/sleeplogs";
 const options = 
 {
     method: 'GET',
